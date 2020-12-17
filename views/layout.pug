@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/chessboard-1.0.0.css')
+    block scripts
+      script(src='/javascripts/jquery.js')
+      script(src='/javascripts/chessboard-1.0.0.js')
+      script(src='/javascripts/chess.js')
+  body
+    block content
